@@ -1,0 +1,56 @@
+body{
+    background-color: #323232;
+    .header{
+        .header__titulo{
+            color: #A8FFAC;
+            font-style: italic;
+        }
+        .header__boton{
+            background-color: #A8FFAC;
+            font-weight: bold;
+            border: #A8FFAC;
+        }
+    }
+    .navegador{
+        justify-content: center;
+        list-style: none;
+        .navegador__icono--active{
+            border-bottom: solid #A8FFAC 5px;
+        }
+    }
+    .pregunta__respuesta{
+        color: white;
+        font-size: 16px;
+        text-align: justify;
+        justify-content: self;
+    }
+    .pais{
+        justify-content: center;
+        color: white;
+        .pais__datos{
+                font-size: 24px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-align: center;
+                align-content: center;
+                height: 196px;
+            .pais__datos--verdeOscuro{
+                background-color: #81E685;
+            }
+            .pais__datos--verdeClaro{
+                background-color:#A8FFAC;
+            }
+            span {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+    }
+    .pie{
+        .pie__titulo{
+            @extend.header__titulo;
+        }
+        .pie__lema{
+            color: white;
+        }
+    }
+}

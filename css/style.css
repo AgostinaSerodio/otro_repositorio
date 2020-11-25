@@ -1,0 +1,39 @@
+body {
+  background-color: #323232; }
+  body .header .header__titulo, body .header .pie .pie__titulo, body .pie .header .pie__titulo {
+    color: #A8FFAC;
+    font-style: italic; }
+  body .header .header__boton {
+    background-color: #A8FFAC;
+    font-weight: bold;
+    border: #A8FFAC; }
+  body .navegador {
+    justify-content: center;
+    list-style: none; }
+  body .pregunta__respuesta {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: self; }
+  body .pais {
+    justify-content: center;
+    color: white; }
+    body .pais .pais__datos .pais__datos--verdeOscuro {
+      background-color: #81E685;
+      font-size: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      align-content: center;
+      height: 196px; }
+    body .pais .pais__datos .pais__datos--verdeClaro {
+      background-color: #A8FFAC;
+      font-size: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      align-content: center;
+      height: 196px; }
+    body .pais .pais__datos span {
+      font-size: 24px;
+      font-weight: bold; }
+  body .pie .pie__lema {
+    color: white; }
